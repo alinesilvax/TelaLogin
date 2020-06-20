@@ -18,7 +18,7 @@
 
         <TextView
             android:id="@+id/textViewAline"
-            android:layout_marginTop="140dp"
+            android:layout_marginTop="141dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="(Aline Silva)"
