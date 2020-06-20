@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ba114c"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textViewAline"
+            android:layout_marginTop="140dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(Aline Silva)"
+            android:fontFamily="@font/yellow_rabbit"
+            android:textSize="100dp"
+            android:textColor="#CDC4C4"
+            android:layout_gravity="center"/>
+
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="260dp"
+            android:layout_height="51dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#CDC4C4"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="#CDC4C4"
+            android:textColorHint="#CDC4C4"
+            android:layout_marginTop="10dp"
+             />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="260dp"
+            android:layout_height="54dp"
+            android:backgroundTint="#CDC4C4"
+            android:ems="10"
+            android:hint="Password"
+            android:layout_gravity="center"
+            android:inputType="textPassword"
+            android:textColorHint="#CDC4C4"
+            android:tooltipText="Password" />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="LOGIN"
+            android:textColor="#CDC4C4"
+            android:background="@drawable/button"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_marginTop="130dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#CDC4C4"
+            android:text="No account yet? Create one!"/>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
